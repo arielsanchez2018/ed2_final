@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "ed2_image_ariel_sanchez"
