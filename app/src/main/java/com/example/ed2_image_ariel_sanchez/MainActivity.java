@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                //       .skipMemoryCache(true).into(img);
               Glide.with(MainActivity.this).load("https://s3.us-east-1.amazonaws.com/arieled2/room_mapping/test.jpg").placeholder(img.getDrawable()).diskCacheStrategy(DiskCacheStrategy.NONE)
                       .skipMemoryCache(true).into(img);
+
               mHandler.postDelayed(this,600);
           }
       };
